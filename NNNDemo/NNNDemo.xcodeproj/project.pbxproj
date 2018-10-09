@@ -19,6 +19,7 @@
 		3D2BB9BA216C7F240054DD1E /* ZFHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D2BB9B8216C7F240054DD1E /* ZFHomeViewController.xib */; };
 		3D2BB9C2216C7F7B0054DD1E /* ZFLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BB9C0216C7F7B0054DD1E /* ZFLoginViewController.m */; };
 		3D2BB9C3216C7F7B0054DD1E /* ZFLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D2BB9C1216C7F7B0054DD1E /* ZFLoginViewController.xib */; };
+		3D2BB9C6216C82450054DD1E /* ZFLiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BB9C5216C82450054DD1E /* ZFLiveModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		3D2BB9BF216C7F7B0054DD1E /* ZFLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFLoginViewController.h; sourceTree = "<group>"; };
 		3D2BB9C0216C7F7B0054DD1E /* ZFLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFLoginViewController.m; sourceTree = "<group>"; };
 		3D2BB9C1216C7F7B0054DD1E /* ZFLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZFLoginViewController.xib; sourceTree = "<group>"; };
+		3D2BB9C4216C82450054DD1E /* ZFLiveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFLiveModel.h; sourceTree = "<group>"; };
+		3D2BB9C5216C82450054DD1E /* ZFLiveModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFLiveModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +209,8 @@
 		3D2BB9B5216C7EFC0054DD1E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3D2BB9C4216C82450054DD1E /* ZFLiveModel.h */,
+				3D2BB9C5216C82450054DD1E /* ZFLiveModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -381,6 +386,7 @@
 				3D2BB9B9216C7F240054DD1E /* ZFHomeViewController.m in Sources */,
 				3D2BB98B216C79C50054DD1E /* main.m in Sources */,
 				3D2BB97D216C79C40054DD1E /* AppDelegate.m in Sources */,
+				3D2BB9C6216C82450054DD1E /* ZFLiveModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
