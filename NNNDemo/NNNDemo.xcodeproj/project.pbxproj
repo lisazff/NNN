@@ -15,6 +15,10 @@
 		3D2BB98B216C79C50054DD1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BB98A216C79C50054DD1E /* main.m */; };
 		3D2BB995216C79C50054DD1E /* NNNDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BB994216C79C50054DD1E /* NNNDemoTests.m */; };
 		3D2BB9A0216C79C50054DD1E /* NNNDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BB99F216C79C50054DD1E /* NNNDemoUITests.m */; };
+		3D2BB9B9216C7F240054DD1E /* ZFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BB9B7216C7F240054DD1E /* ZFHomeViewController.m */; };
+		3D2BB9BA216C7F240054DD1E /* ZFHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D2BB9B8216C7F240054DD1E /* ZFHomeViewController.xib */; };
+		3D2BB9C2216C7F7B0054DD1E /* ZFLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2BB9C0216C7F7B0054DD1E /* ZFLoginViewController.m */; };
+		3D2BB9C3216C7F7B0054DD1E /* ZFLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D2BB9C1216C7F7B0054DD1E /* ZFLoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		3D2BB99B216C79C50054DD1E /* NNNDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNNDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2BB99F216C79C50054DD1E /* NNNDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNNDemoUITests.m; sourceTree = "<group>"; };
 		3D2BB9A1216C79C50054DD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2BB9B6216C7F240054DD1E /* ZFHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFHomeViewController.h; sourceTree = "<group>"; };
+		3D2BB9B7216C7F240054DD1E /* ZFHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFHomeViewController.m; sourceTree = "<group>"; };
+		3D2BB9B8216C7F240054DD1E /* ZFHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZFHomeViewController.xib; sourceTree = "<group>"; };
+		3D2BB9BF216C7F7B0054DD1E /* ZFLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFLoginViewController.h; sourceTree = "<group>"; };
+		3D2BB9C0216C7F7B0054DD1E /* ZFLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFLoginViewController.m; sourceTree = "<group>"; };
+		3D2BB9C1216C7F7B0054DD1E /* ZFLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZFLoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,8 @@
 		3D2BB97A216C79C30054DD1E /* NNNDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3D2BB9B0216C7EBB0054DD1E /* Business */,
+				3D2BB9AF216C7EA10054DD1E /* Base */,
 				3D2BB9AE216C7AEE0054DD1E /* Utils */,
 				3D2BB9AD216C7ADF0054DD1E /* Category */,
 				3D2BB97B216C79C40054DD1E /* AppDelegate.h */,
@@ -146,6 +158,90 @@
 			children = (
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		3D2BB9AF216C7EA10054DD1E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3D2BB9B0216C7EBB0054DD1E /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				3D2BB9BB216C7F320054DD1E /* 登录注册 */,
+				3D2BB9B1216C7EC80054DD1E /* 首页 */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		3D2BB9B1216C7EC80054DD1E /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				3D2BB9B5216C7EFC0054DD1E /* Model */,
+				3D2BB9B4216C7EEB0054DD1E /* View */,
+				3D2BB9B2216C7ED90054DD1E /* Controller */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		3D2BB9B2216C7ED90054DD1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D2BB9B6216C7F240054DD1E /* ZFHomeViewController.h */,
+				3D2BB9B7216C7F240054DD1E /* ZFHomeViewController.m */,
+				3D2BB9B8216C7F240054DD1E /* ZFHomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D2BB9B4216C7EEB0054DD1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D2BB9B5216C7EFC0054DD1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D2BB9BB216C7F320054DD1E /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				3D2BB9BE216C7F5F0054DD1E /* Model */,
+				3D2BB9BD216C7F540054DD1E /* View */,
+				3D2BB9BC216C7F490054DD1E /* Controller */,
+			);
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		3D2BB9BC216C7F490054DD1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D2BB9BF216C7F7B0054DD1E /* ZFLoginViewController.h */,
+				3D2BB9C0216C7F7B0054DD1E /* ZFLoginViewController.m */,
+				3D2BB9C1216C7F7B0054DD1E /* ZFLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D2BB9BD216C7F540054DD1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D2BB9BE216C7F5F0054DD1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +347,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2BB9C3216C7F7B0054DD1E /* ZFLoginViewController.xib in Resources */,
 				3D2BB988216C79C50054DD1E /* LaunchScreen.storyboard in Resources */,
+				3D2BB9BA216C7F240054DD1E /* ZFHomeViewController.xib in Resources */,
 				3D2BB985216C79C50054DD1E /* Assets.xcassets in Resources */,
 				3D2BB983216C79C40054DD1E /* Main.storyboard in Resources */,
 			);
@@ -278,7 +376,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2BB9C2216C7F7B0054DD1E /* ZFLoginViewController.m in Sources */,
 				3D2BB980216C79C40054DD1E /* ViewController.m in Sources */,
+				3D2BB9B9216C7F240054DD1E /* ZFHomeViewController.m in Sources */,
 				3D2BB98B216C79C50054DD1E /* main.m in Sources */,
 				3D2BB97D216C79C40054DD1E /* AppDelegate.m in Sources */,
 			);
@@ -457,7 +557,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rekr.NNNDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -473,7 +573,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rekr.NNNDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
