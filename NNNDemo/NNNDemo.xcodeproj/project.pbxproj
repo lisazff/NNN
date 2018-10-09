@@ -101,6 +101,8 @@
 		3D2BB97A216C79C30054DD1E /* NNNDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3D2BB9AE216C7AEE0054DD1E /* Utils */,
+				3D2BB9AD216C7ADF0054DD1E /* Category */,
 				3D2BB97B216C79C40054DD1E /* AppDelegate.h */,
 				3D2BB97C216C79C40054DD1E /* AppDelegate.m */,
 				3D2BB97E216C79C40054DD1E /* ViewController.h */,
@@ -130,6 +132,20 @@
 				3D2BB9A1216C79C50054DD1E /* Info.plist */,
 			);
 			path = NNNDemoUITests;
+			sourceTree = "<group>";
+		};
+		3D2BB9AD216C7ADF0054DD1E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3D2BB9AE216C7AEE0054DD1E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
